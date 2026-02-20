@@ -75,13 +75,13 @@ Bias ~ Precipitation + Wind_Speed + NDVI + Month + Latitude + Longitude + Altitu
 - Mountainous regions show strongest residual patterns (model limitations)
 
 ## Team
-| Name | University |
-|------|------------|
-| Edoardo Olivieri | Politecnico di Milano |
-| Giacomo Fullin | Università Milano-Bicocca |
-| **Luca Iaria** | Università Milano-Bicocca |
-| Paolo Portanova | Università Milano-Bicocca |
-| Francesca Verna | Università Milano-Bicocca |
+| Name | University | Github | LinkedIn |
+|------|------------|--------|----------|
+| Edoardo Olivieri | Politecnico di Milano | [GitHub](https://github.com/edoardo-olivieri) | [LinkedIn](https://www.linkedin.com/in/edoardo-olivieri-6b73a52a1) |
+| Giacomo Fullin | Università Milano-Bicocca | [GitHub](https://github.com/giacomofullin18) | [LinkedIn](https://www.linkedin.com/in/giacomo-fullin-85b82b33b/) |
+| Luca Iaria | Università Milano-Bicocca | [GitHub](https://github.com/lu01ca) | [LinkedIn](https://www.linkedin.com/in/luca-iaria-b7b49b23a/) |
+| Paolo Portanova | Università Milano-Bicocca | [GitHub](https://github.com/paoloportanovacsn-sys) | |
+| Francesca Verna | Università Milano-Bicocca | [GitHub](https://github.com/francescaverna) | [LinkedIn](https://www.linkedin.com/in/francesca-verna-b3584b316)
 
 ## Repository Structure
 ```
