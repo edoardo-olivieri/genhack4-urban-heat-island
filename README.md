@@ -2,15 +2,20 @@
 GenHack 4 (École Polytechnique): analysis of Urban Heat Island effect in Europe
 
 ## Overview
-## My Contribution
-- Statistical modeling (OLS, panel data models)
-- Bias definition and interpretability analysis
-- Result validation and robustness checks
+
 International hackathon organized by **École Polytechnique Paris** (November–December 2025).
 
-**Team Oroscopo**
-
 **Challenge:** Quantify and explain discrepancies between ERA5-Land satellite data and ECAD ground stations — investigating whether the Urban Heat Island (UHI) effect explains why satellite temperature estimates differ from ground reality.
+
+## Team
+| Name | University | Github | LinkedIn |
+|------|------------|--------|----------|
+| Edoardo Olivieri | Politecnico di Milano | [GitHub](https://github.com/edoardo-olivieri) | [LinkedIn](https://www.linkedin.com/in/edoardo-olivieri-6b73a52a1) |
+| Giacomo Fullin | Università Milano-Bicocca | [GitHub](https://github.com/giacomofullin18) | [LinkedIn](https://www.linkedin.com/in/giacomo-fullin-85b82b33b/) |
+| Luca Iaria | Università Milano-Bicocca | [GitHub](https://github.com/lu01ca) | [LinkedIn](https://www.linkedin.com/in/luca-iaria-b7b49b23a/) |
+| Paolo Portanova | Università Milano-Bicocca | [GitHub](https://github.com/paoloportanovacsn-sys) | |
+| Francesca Verna | Università Milano-Bicocca | [GitHub](https://github.com/francescaverna) | [LinkedIn](https://www.linkedin.com/in/francesca-verna-b3584b316)
+
 
 ## Problem
 Urban areas experience higher temperatures than surrounding rural areas due to dense construction, reduced vegetation, and altered radiative properties. This project investigates whether the lack of vegetation (UHI effect) explains systematic errors in satellite-based temperature estimates.
@@ -63,7 +68,7 @@ Bias ~ Precipitation + Wind_Speed + NDVI + Month + Latitude + Longitude + Altitu
 
 | Driver | Effect | Interpretation |
 |--------|--------|----------------|
-| Wind Speed | Strong negative | Main UHI suppressor — ventilates urban boundary layer |
+| Wind Speed | Strong negative | Main UHI suppressor - ventilates urban boundary layer |
 | Precipitation | Weak negative | Evaporative cooling during rain events |
 | NDVI | Context-dependent | Sign changes between altitude regimes |
 | Elevation | Complex | Different behavior in low vs. high altitude |
@@ -73,15 +78,6 @@ Bias ~ Precipitation + Wind_Speed + NDVI + Month + Latitude + Longitude + Altitu
 - Largest biases occur on hot, dry, low-wind days (stagnant conditions)
 - Elevation stratification reveals regime-dependent coefficient behavior
 - Mountainous regions show strongest residual patterns (model limitations)
-
-## Team
-| Name | University | Github | LinkedIn |
-|------|------------|--------|----------|
-| Edoardo Olivieri | Politecnico di Milano | [GitHub](https://github.com/edoardo-olivieri) | [LinkedIn](https://www.linkedin.com/in/edoardo-olivieri-6b73a52a1) |
-| Giacomo Fullin | Università Milano-Bicocca | [GitHub](https://github.com/giacomofullin18) | [LinkedIn](https://www.linkedin.com/in/giacomo-fullin-85b82b33b/) |
-| Luca Iaria | Università Milano-Bicocca | [GitHub](https://github.com/lu01ca) | [LinkedIn](https://www.linkedin.com/in/luca-iaria-b7b49b23a/) |
-| Paolo Portanova | Università Milano-Bicocca | [GitHub](https://github.com/paoloportanovacsn-sys) | |
-| Francesca Verna | Università Milano-Bicocca | [GitHub](https://github.com/francescaverna) | [LinkedIn](https://www.linkedin.com/in/francesca-verna-b3584b316)
 
 ## Repository Structure
 ```
@@ -111,7 +107,7 @@ matplotlib · seaborn · contextily
 - Potential extensions: geographically weighted regression, gradient boosting, spatial autoregressive models
 
 ## Links
-- [GenHack Official Page](https://www.polytechnique.edu/en/genhack-4-hackathon-generative-modelling)
+- [GenHack 4 Official Page](https://www.polytechnique.edu/en/genhack-4-hackathon-generative-modelling)
 
 ---
 *Code developed during a 4-week hackathon. Focus was on methodology and insights rather than production-ready code.*
